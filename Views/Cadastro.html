@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- SCRIPTS -->
+    <link rel="stylesheet" href="./../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./../node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="./../assets/style/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Header">
+            ​<figure style="display: block; margin: 0 auto; width: 100px;">
+                <source srcset="./../assets/img/logo.png" type="image">
+                <img src="./../assets/img/logo.png" class="img-fluid" alt="...">
+            </figure>
+            <h1>Cadastro de Usuário.</h1>
+        </div>
+        <div class="Body">
+            <div class="container-fluid">
+                <form class="formClass2">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Nome</label>
+                        <input type="text" class="form-control" id="nomeId" aria-describedby="emailHelp" placeholder="Nome completo">
+                        <small id="emailHelp" class="form-text text-muted">Digite um endereço de email válido</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">CPF</label>
+                        <input type="text" class="form-control" id="cpfId" aria-describedby="emailHelp" placeholder="CPF">
+                        <small id="emailHelp" class="form-text text-muted">Digite um endereço de email válido</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Data de Nascimento</label>
+                        <input type="date" class="form-control" id="nascimentoId" aria-describedby="emailHelp" placeholder="Data de nascimento">
+                        <small id="emailHelp" class="form-text text-muted">Digite um endereço de email válido</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="emailId" aria-describedby="emailHelp" placeholder="Email">
+                        <small id="emailHelp" class="form-text text-muted">Digite um endereço de email válido</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Certificado</label>
+                        <select class="form-control" id="certificadoId">
+                            <option>Certificado 1</option>
+                            <option>Certificado 2</option>
+                            <option>Certificado 3</option>
+                            <option>Certificado 4</option>
+                            <option>Certificado 5</option>
+                        </select>
+                        <small id="emailHelp" class="form-text text-muted">Selecione um certificado</small>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-xl-6 text-center">
+                            <button type="button" class="btn btn-danger ">Limpar Campos</button>                  
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-xl-6 text-center">
+                            <button type="submit" class="btn btn-success ">Cadastrar</button>                  
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <scripts>
+            <script src="./../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        </scripts>
+    </div>
+</body>
+</html>

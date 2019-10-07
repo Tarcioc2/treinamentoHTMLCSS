@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- SCRIPTS -->
+    <link rel="stylesheet" href="./../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="./../node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="./../assets/style/style.css">
+    <title>Listagem de Usuarios</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Header">
+            ​<figure style="display: block; margin: 0 auto; width: 100px;">
+                <source srcset="./../assets/img/logo.png" type="image">
+                <img src="./../assets/img/logo.png" class="img-fluid" alt="...">
+            </figure>
+            <h1>Lista de Usuarios</h1>
+        </div>
+        <div class="Body">
+            <div class="container-fluid formClass2">
+                    <div class="filtro">
+                        <div class="row">
+                            <div class="col-sm-2 col-md-2 col-xl-2">
+                                <input type="text" class="form-control" id="nomeId" aria-describedby="emailHelp" placeholder="Status">
+                            </div>
+                            <div class="col-sm-2 col-md-2 col-xl-2">
+                                <input type="text" class="form-control" id="nomeId" aria-describedby="emailHelp" placeholder="Nome">
+                            </div>
+                            <div class="col-sm-2 col-md-2 col-xl-2">
+                                <input type="text" class="form-control" id="nomeId" aria-describedby="emailHelp" placeholder="CPF">
+                            </div>
+                            <div class="col-sm-2 col-md-2 col-xl-2">
+                                <input type="date" class="form-control" id="nomeId" aria-describedby="emailHelp" placeholder="Data de Nascimento">
+                            </div>
+                            <div class="col-sm-2 col-md-4 col-xl text-right">
+                                <button type="button" class="btn btn-primary ">Filtrar</button>  
+                            </div> 
+                        </div>
+                    </div>
+                    <table class="table table-striped">
+                            <thead class="thead-dark">
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Id</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Nome</th>
+                                <th scope="col">CPF</th>
+                                <th scope="col">Data de nascimento</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                              </tr>
+                            </tbody>
+                          </table>
+            </div>
+        </div>
+        <scripts>
+            <script src="./../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        </scripts>
+    </div>
+</body>
+</html>
